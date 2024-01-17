@@ -2,10 +2,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 //import java.util.spi.CurrencyNameProvider;
-     public class CurrencyConvertor {
+     public class Task_4_currency_convertor {
          private Map<String,Double> exchangeRates;
 
-         public CurrencyConvertor(){
+         public Task_4_currency_convertor(){
 
             exchangeRates= new HashMap<>();
             exchangeRates.put("USD",1.0);   //base currency (US Dollar )
@@ -34,7 +34,7 @@ import java.util.Scanner;
         }
         public static void main(String[] args)
         {
-            CurrencyConvertor convertor=new CurrencyConvertor();
+            Task_4_currency_convertor convertor=new Task_4_currency_convertor();
             Scanner sc=new Scanner(System.in);
 
             System.out.println("Currency Convertor");
